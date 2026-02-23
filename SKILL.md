@@ -101,6 +101,7 @@ Use these as local summaries. Prefer original source posts first.
 - `references/yulin-202564-pattern.md` — single-post pattern extraction notes
 - `references/yulin-7d-pattern-report.md` — multi-post pattern mining report
 - `references/levelsio-2025954348933452161-pattern.md` — strategy-pattern extraction example (ownership + long horizon)
+- `references/levelsio-2025962414085210559-speed-vs-safety-pattern.md` — speed-vs-safety extraction example (permission bypass risk)
 - `references/alexocheema-2016404573917683754-validation-pattern.md` — claim-validation example (plausible vs proven)
 
 ## Attribution & thanks
