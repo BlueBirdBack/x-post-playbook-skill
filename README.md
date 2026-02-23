@@ -18,6 +18,17 @@ Turn X/Twitter content into reusable execution playbooks.
 - `references/yulin-7d-pattern-report.md`
 - `x-post-playbook.skill` (packaged skill file)
 
+## Attribution & thanks
+
+- Core ideas/patterns are distilled from public posts by **QingYue (@YuLin807)**.
+- Main inspiration post: https://x.com/YuLin807/status/2025640139947647480
+- Additional pattern evidence from recent @YuLin807 posts is in:
+  - `references/yulin-202564-pattern.md`
+  - `references/yulin-7d-pattern-report.md`
+- This workflow uses **x-tweet-fetcher** by ythx-101 as an upstream fetch dependency:
+  - https://github.com/ythx-101/x-tweet-fetcher
+- Thanks to QingYue for sharing the workflow publicly.
+
 ## Install in OpenClaw
 
 ```bash

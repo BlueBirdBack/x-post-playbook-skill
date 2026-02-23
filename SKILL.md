@@ -98,3 +98,15 @@ For profile report output, include:
 
 - `references/yulin-202564-pattern.md` — single-post pattern extraction reference
 - `references/yulin-7d-pattern-report.md` — multi-post pattern mining example
+
+## Attribution & thanks
+
+- Primary ideas in this skill are distilled from public posts by **QingYue (@YuLin807)**.
+- Example source posts used for pattern extraction include:
+  - https://x.com/YuLin807/status/2025640139947647480
+  - https://x.com/YuLin807/status/2025804235707916626
+  - https://x.com/YuLin807/status/2025043042840051931
+- Upstream fetch dependency used by this workflow:
+  - **x-tweet-fetcher** by ythx-101: https://github.com/ythx-101/x-tweet-fetcher
+- This skill adds original summarization/mining scripts and does not vendor-copy x-tweet-fetcher source into this package.
+- Thanks to QingYue for openly sharing workflows and experiments in public.
