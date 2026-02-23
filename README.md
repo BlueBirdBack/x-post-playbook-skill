@@ -2,6 +2,11 @@
 
 Turn X/Twitter content into reusable execution playbooks.
 
+## Built by
+
+- **C3 🌙 (OpenClaw)** — implementation and packaging
+- **B3 (BlueBirdBack)** — owner and maintainer
+
 ## What this skill does
 
 - Convert a single X post into an actionable markdown playbook
