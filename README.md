@@ -43,6 +43,16 @@ Try:
 - “Turn those patterns into a simple SOP for my daily routine.”
 - “Keep it ADHD-friendly: short steps, one clear next action.”
 
+### 4) More ready-to-use prompt examples
+
+- “Review this post and tell me if the claim is fully verified, mostly plausible, or weak: <POST_URL>”
+- “Extract only practical steps from this thread. Skip opinions: <POST_URL>”
+- “Compare these two posts and show where they agree/disagree: <URL_A> <URL_B>”
+- “Turn this post into a 7-day execution plan with daily actions: <POST_URL>”
+- “Draft a friendly X reply in Chinese based on this post: <POST_URL>”
+- “Find top patterns from @<handle> this month, then give me one action I can do today.”
+- “Make a decision checklist from this post (what to verify before I trust it): <POST_URL>”
+
 ### Common beginner mistakes
 
 - Asking too broad (“analyze everything”) instead of one clear task
