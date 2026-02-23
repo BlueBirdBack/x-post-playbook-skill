@@ -1,6 +1,6 @@
 # Profile Pattern Report
 
-- source: /root/.openclaw/workspace/downloads/YuLin807-recent-168h-full.json
+- source: /root/.openclaw/workspace/downloads/x-post-playbook-cron/YuLin807-recent-168h-full.json
 - posts analyzed: 19
 - classified: 15
 - unclassified: 4
@@ -8,94 +8,94 @@
 ## Dominant patterns
 ### 1. Build-in-Public Recap (11 posts)
 - why it matters: Publish concrete daily recaps with numbers, fixes, and links to reproducible steps.
-- signal: total_views=159435 | avg_views=14494
+- signal: total_views=161719 | avg_views=14701
 - evidence:
-  - https://x.com/YuLin807/status/2025043042840051931  (views=54500, likes=239, rt=62)
+  - https://x.com/YuLin807/status/2025043042840051931  (views=54942, likes=239, rt=62)
     - #openclaw #clawdbot 上班族玩 openclaw 的正确姿势： 早上出门前跟龙虾说几句话 → 它自动建 issue、排优先级 白天上班 → 龙虾每小时自动调度，派给不同 agent 执行 晚上下班 → 
-  - https://x.com/YuLin807/status/2025233695528132685  (views=28007, likes=91, rt=14)
+  - https://x.com/YuLin807/status/2025233695528132685  (views=28028, likes=91, rt=14)
     - 今天 openclaw 帮我干了点啥？！ 今天龙虾干了一整天，感觉要写成小说了 。 早上帮我分析了竞品的架构（@izag82161 那个 24/7 系统），发现人家用 kimi k2.5 + cron x30 撑全天，一
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
 
 ### 2. Async Night Ops (11 posts)
 - why it matters: Run tasks while offline (night/work hours), then review outputs in one batch.
-- signal: total_views=156977 | avg_views=14270
+- signal: total_views=159273 | avg_views=14479
 - evidence:
-  - https://x.com/YuLin807/status/2025043042840051931  (views=54500, likes=239, rt=62)
+  - https://x.com/YuLin807/status/2025043042840051931  (views=54942, likes=239, rt=62)
     - #openclaw #clawdbot 上班族玩 openclaw 的正确姿势： 早上出门前跟龙虾说几句话 → 它自动建 issue、排优先级 白天上班 → 龙虾每小时自动调度，派给不同 agent 执行 晚上下班 → 
-  - https://x.com/YuLin807/status/2025233695528132685  (views=28007, likes=91, rt=14)
+  - https://x.com/YuLin807/status/2025233695528132685  (views=28028, likes=91, rt=14)
     - 今天 openclaw 帮我干了点啥？！ 今天龙虾干了一整天，感觉要写成小说了 。 早上帮我分析了竞品的架构（@izag82161 那个 24/7 系统），发现人家用 kimi k2.5 + cron x30 撑全天，一
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
 
 ### 3. Issue-Driven Learning (10 posts)
 - why it matters: Convert content intake into ranked issue queues with clear execution owners.
-- signal: total_views=139776 | avg_views=13977
+- signal: total_views=141427 | avg_views=14142
 - evidence:
-  - https://x.com/YuLin807/status/2025043042840051931  (views=54500, likes=239, rt=62)
+  - https://x.com/YuLin807/status/2025043042840051931  (views=54942, likes=239, rt=62)
     - #openclaw #clawdbot 上班族玩 openclaw 的正确姿势： 早上出门前跟龙虾说几句话 → 它自动建 issue、排优先级 白天上班 → 龙虾每小时自动调度，派给不同 agent 执行 晚上下班 → 
-  - https://x.com/YuLin807/status/2025233695528132685  (views=28007, likes=91, rt=14)
+  - https://x.com/YuLin807/status/2025233695528132685  (views=28028, likes=91, rt=14)
     - 今天 openclaw 帮我干了点啥？！ 今天龙虾干了一整天，感觉要写成小说了 。 早上帮我分析了竞品的架构（@izag82161 那个 24/7 系统），发现人家用 kimi k2.5 + cron x30 撑全天，一
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
 
 ### 4. Autonomy + Evolution (7 posts)
 - why it matters: Grant bounded autonomy, let agent self-reflect, and evolve behavior over time.
-- signal: total_views=69114 | avg_views=9873
+- signal: total_views=70275 | avg_views=10039
 - evidence:
-  - https://x.com/YuLin807/status/2025233695528132685  (views=28007, likes=91, rt=14)
+  - https://x.com/YuLin807/status/2025233695528132685  (views=28028, likes=91, rt=14)
     - 今天 openclaw 帮我干了点啥？！ 今天龙虾干了一整天，感觉要写成小说了 。 早上帮我分析了竞品的架构（@izag82161 那个 24/7 系统），发现人家用 kimi k2.5 + cron x30 撑全天，一
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
-  - https://x.com/YuLin807/status/2025804235707916626  (views=8163, likes=37, rt=2)
+  - https://x.com/YuLin807/status/2025804235707916626  (views=8783, likes=38, rt=2)
     - 今天 openclaw 帮我干了点啥？！ 凌晨5点跟龙虾排优先级，聊到天亮。五个方向一个个过完，直接开干。 1. 记忆系统改了。之前是白天干完晚上整理，现在对话中直接写入——实时的。测了召回率80%，那20%搜不到的已经
 
 ### 5. Infra Embodiment (6 posts)
 - why it matters: Treat infra as body parts (VPS/Mac/router) with resilient fallback channels.
-- signal: total_views=132242 | avg_views=22040
+- signal: total_views=134400 | avg_views=22400
 - evidence:
-  - https://x.com/YuLin807/status/2025043042840051931  (views=54500, likes=239, rt=62)
+  - https://x.com/YuLin807/status/2025043042840051931  (views=54942, likes=239, rt=62)
     - #openclaw #clawdbot 上班族玩 openclaw 的正确姿势： 早上出门前跟龙虾说几句话 → 它自动建 issue、排优先级 白天上班 → 龙虾每小时自动调度，派给不同 agent 执行 晚上下班 → 
-  - https://x.com/YuLin807/status/2025233695528132685  (views=28007, likes=91, rt=14)
+  - https://x.com/YuLin807/status/2025233695528132685  (views=28028, likes=91, rt=14)
     - 今天 openclaw 帮我干了点啥？！ 今天龙虾干了一整天，感觉要写成小说了 。 早上帮我分析了竞品的架构（@izag82161 那个 24/7 系统），发现人家用 kimi k2.5 + cron x30 撑全天，一
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
 
 ### 6. Comments + Timeline Intel (5 posts)
 - why it matters: Mine replies/comments/timeline for edge-case tactics and fast context sync.
-- signal: total_views=44659 | avg_views=8931
+- signal: total_views=45817 | avg_views=9163
 - evidence:
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
-  - https://x.com/YuLin807/status/2025804235707916626  (views=8163, likes=37, rt=2)
+  - https://x.com/YuLin807/status/2025804235707916626  (views=8783, likes=38, rt=2)
     - 今天 openclaw 帮我干了点啥？！ 凌晨5点跟龙虾排优先级，聊到天亮。五个方向一个个过完，直接开干。 1. 记忆系统改了。之前是白天干完晚上整理，现在对话中直接写入——实时的。测了召回率80%，那20%搜不到的已经
-  - https://x.com/YuLin807/status/2025640139947647480  (views=6877, likes=55, rt=6)
+  - https://x.com/YuLin807/status/2025640139947647480  (views=6981, likes=55, rt=7)
     - #openclaw x fetch 这个skill的诞生完全是为了我和龙虾更加顺畅的交流，我给大家演示几种我的用法： 1.x fetch 和本地 git issue机制结合 就比如我经常看到有意思的内容，会直接扔给龙虾，
 
 ### 7. Memory-First Operations (3 posts)
 - why it matters: Use live memory/logging to improve recall and continuity across sessions.
-- signal: total_views=32404 | avg_views=10801
+- signal: total_views=33456 | avg_views=11152
 - evidence:
-  - https://x.com/YuLin807/status/2025610074824315349  (views=19001, likes=127, rt=24)
+  - https://x.com/YuLin807/status/2025610074824315349  (views=19423, likes=129, rt=24)
     - 今天在我的 github q&a 问答网站中，有 🦞看过我的异步任务管理来提问了一个有趣的问题："如何让龙虾进化自己？" 我的答案：你不需要让它进化，你只需要不阻止它。 我的做法： 1. 每天凌晨 2:30 让它自己"冥
-  - https://x.com/YuLin807/status/2025804235707916626  (views=8163, likes=37, rt=2)
+  - https://x.com/YuLin807/status/2025804235707916626  (views=8783, likes=38, rt=2)
     - 今天 openclaw 帮我干了点啥？！ 凌晨5点跟龙虾排优先级，聊到天亮。五个方向一个个过完，直接开干。 1. 记忆系统改了。之前是白天干完晚上整理，现在对话中直接写入——实时的。测了召回率80%，那20%搜不到的已经
-  - https://x.com/YuLin807/status/2025428240530284633  (views=5240, likes=22, rt=1)
+  - https://x.com/YuLin807/status/2025428240530284633  (views=5250, likes=22, rt=1)
     - openclaw养育成果： 昨晚让🦞参考推上的3d知识图谱做个成果出来，倒是做出来了，不过也不知道为啥mac safari 浏览器渲染不出来，100多个小点直接汇聚成一个大球，思来想去，这玩意还不如用obsidian g
 
 ### 8. Privacy-Safe Deployment (2 posts)
 - why it matters: Design deployment workflows that avoid exposing customer secrets.
-- signal: total_views=25494 | avg_views=12747
+- signal: total_views=26757 | avg_views=13378
 - evidence:
-  - https://x.com/YuLin807/status/2025545334978691462  (views=17331, likes=24, rt=1)
+  - https://x.com/YuLin807/status/2025545334978691462  (views=17974, likes=24, rt=1)
     - 今天 openclaw 帮我干了点啥？！ 今天有推友有问我能不能付费部署一下小龙虾，我想正好可以用来测试我对openclaw这个项目的理解。 为了保障顾客的api以及vps地址 密码不被泄露，我让小龙虾设计了一套反向连接
-  - https://x.com/YuLin807/status/2025804235707916626  (views=8163, likes=37, rt=2)
+  - https://x.com/YuLin807/status/2025804235707916626  (views=8783, likes=38, rt=2)
     - 今天 openclaw 帮我干了点啥？！ 凌晨5点跟龙虾排优先级，聊到天亮。五个方向一个个过完，直接开干。 1. 记忆系统改了。之前是白天干完晚上整理，现在对话中直接写入——实时的。测了召回率80%，那20%搜不到的已经
 
 ## Unclassified high-signal posts
-- https://x.com/YuLin807/status/2025904770972811696 (views=659)
-- https://x.com/YuLin807/status/2025814399131521383 (views=767)
-- https://x.com/YuLin807/status/2025818373129666866 (views=292)
+- https://x.com/YuLin807/status/2025904770972811696 (views=850)
+- https://x.com/YuLin807/status/2025814399131521383 (views=796)
+- https://x.com/YuLin807/status/2025818373129666866 (views=306)
 
 ## Skill-upgrade suggestions
 - Expand automation hooks beyond single-post parsing: support async-night planning and daily recap patterns.

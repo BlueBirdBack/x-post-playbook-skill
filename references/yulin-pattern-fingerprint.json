@@ -1,0 +1,36 @@
+{
+  "patterns": [
+    {
+      "key": "build-in-public-recap",
+      "count": 11
+    },
+    {
+      "key": "async-night-ops",
+      "count": 11
+    },
+    {
+      "key": "issue-driven-learning",
+      "count": 10
+    },
+    {
+      "key": "autonomy-and-evolution",
+      "count": 7
+    },
+    {
+      "key": "infra-embodiment",
+      "count": 6
+    },
+    {
+      "key": "comments-and-timeline-intel",
+      "count": 5
+    },
+    {
+      "key": "memory-first-operations",
+      "count": 3
+    },
+    {
+      "key": "privacy-safe-deployment",
+      "count": 2
+    }
+  ]
+}
