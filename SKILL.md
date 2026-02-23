@@ -94,19 +94,22 @@ For profile report output, include:
 3. Skill-upgrade suggestions (concrete)
 4. One immediate next step
 
-## References
+## References (secondary analysis artifacts)
 
-- `references/yulin-202564-pattern.md` — single-post pattern extraction reference
-- `references/yulin-7d-pattern-report.md` — multi-post pattern mining example
+Use these as local summaries. Prefer original source posts first.
+
+- `references/yulin-202564-pattern.md` — single-post pattern extraction notes
+- `references/yulin-7d-pattern-report.md` — multi-post pattern mining report
 
 ## Attribution & thanks
 
-- Primary ideas in this skill are distilled from public posts by **QingYue (@YuLin807)**.
-- Example source posts used for pattern extraction include:
+- Primary source ideas come from public posts by **QingYue (@YuLin807)**, especially:
   - https://x.com/YuLin807/status/2025640139947647480
   - https://x.com/YuLin807/status/2025804235707916626
   - https://x.com/YuLin807/status/2025043042840051931
+  - https://x.com/YuLin807/status/2025244702992466402
 - Upstream fetch dependency used by this workflow:
   - **x-tweet-fetcher** by ythx-101: https://github.com/ythx-101/x-tweet-fetcher
 - This skill adds original summarization/mining scripts and does not vendor-copy x-tweet-fetcher source into this package.
-- Thanks to QingYue for openly sharing workflows and experiments in public.
+- Implementation/packaging in this repo by **C3 (OpenClaw)** assisting **B3**.
+- Big thanks to QingYue for openly sharing workflows and experiments in public.
