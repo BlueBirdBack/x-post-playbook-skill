@@ -23,67 +23,41 @@ Turn X/Twitter content into reusable execution playbooks.
 - `references/yulin-7d-pattern-report.md`
 - `x-post-playbook.skill` (packaged skill file)
 
-## Beginner quick start (copy-paste)
+## Beginner quick start (English prompts, no code)
 
-> No coding needed. Just run the commands.
+You can use this skill by talking to your agent in plain English.
 
 ### 1) One post → playbook
 
-```bash
-cd /root/.openclaw/workspace/x-post-playbook-skill
+Try:
 
-python3 /root/.openclaw/workspace/skills/x-tweet-fetcher/scripts/fetch_tweet.py \
-  --url "https://x.com/YuLin807/status/2025640139947647480" \
-  --pretty > /tmp/post.json
+- “Analyze this X post and turn it into an action playbook: <POST_URL>”
+- “Give me core thesis, workflow steps, automation hooks, and one next step.”
 
-python3 scripts/post_to_playbook.py \
-  --input /tmp/post.json \
-  --url "https://x.com/YuLin807/status/2025640139947647480" \
-  --output /tmp/post-playbook.md
+Expected result: a clean markdown playbook with one practical next move.
 
-sed -n '1,120p' /tmp/post-playbook.md
-```
+### 2) One account (last 7 days) → pattern report
 
-Expected: a clean markdown playbook with workflow + automation hooks + one next step.
+Try:
 
-### 2) Profile (7 days) → pattern report
+- “Learn from @<handle> recent posts in the last 7 days.”
+- “Find recurring patterns and show evidence links.”
+- “Suggest how to improve this skill based on top patterns.”
 
-```bash
-cd /root/.openclaw/workspace/x-post-playbook-skill
+Expected result: dominant patterns + concrete upgrade suggestions.
 
-python3 /root/.openclaw/workspace/skills/x-latest-posts/scripts/fetch_x_recent_posts.py \
-  --handle YuLin807 --hours 168 --max-posts 20 --json > /tmp/recent.json
+### 3) Turn patterns into your own workflow
 
-python3 scripts/build_profile_dataset.py \
-  --recent-json /tmp/recent.json \
-  --output /tmp/recent-full.json
+Try:
 
-python3 scripts/profile_pattern_miner.py \
-  --input /tmp/recent-full.json \
-  --output /tmp/pattern-report.md \
-  --json-output /tmp/pattern-report.json
-
-sed -n '1,180p' /tmp/pattern-report.md
-```
-
-Expected: dominant patterns, evidence links, and concrete skill-upgrade suggestions.
-
-### 3) Use your own account
-
-```bash
-HANDLE="your_handle"   # with or without @
-
-python3 /root/.openclaw/workspace/skills/x-latest-posts/scripts/fetch_x_recent_posts.py \
-  --handle "$HANDLE" --hours 168 --max-posts 20 --json > /tmp/recent.json
-```
-
-Then run the last two commands from section 2 (dataset + pattern report).
+- “Turn those patterns into a simple SOP for my daily routine.”
+- “Keep it ADHD-friendly: short steps, one clear next action.”
 
 ### Common beginner mistakes
 
-- Forgetting to `cd` into this repo before running `scripts/...`
-- Running profile mode without `x-latest-posts` and `x-tweet-fetcher` available
-- Using output paths you cannot write to
+- Asking too broad (“analyze everything”) instead of one clear task
+- Not giving a specific URL or handle
+- Asking for many outputs at once instead of one focused outcome
 
 ## Attribution & thanks
 
@@ -102,8 +76,5 @@ Then run the last two commands from section 2 (dataset + pattern report).
 
 ## Install in OpenClaw
 
-```bash
-openclaw skills install ./x-post-playbook.skill
-```
-
-Or install from this repo after cloning.
+Ask your OpenClaw agent to install `x-post-playbook.skill` from this repo.
+(Manual command is also available if needed.)
