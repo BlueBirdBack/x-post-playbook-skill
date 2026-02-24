@@ -102,6 +102,7 @@ Use these as local summaries. Prefer original source posts first.
 - `references/yulin-7d-pattern-report.md` — multi-post pattern mining report
 - `references/levelsio-2025954348933452161-pattern.md` — strategy-pattern extraction example (ownership + long horizon)
 - `references/levelsio-2025962414085210559-speed-vs-safety-pattern.md` — speed-vs-safety extraction example (permission bypass risk)
+- `references/steipete-2020704611640705485-persona-patch-pattern.md` — persona-patch extraction example (voice tuning with guardrails)
 - `references/alexocheema-2016404573917683754-validation-pattern.md` — claim-validation example (plausible vs proven)
 
 ## Attribution & thanks

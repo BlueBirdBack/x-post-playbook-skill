@@ -1,11 +1,11 @@
 {
   "patterns": [
     {
-      "key": "build-in-public-recap",
-      "count": 11
+      "key": "async-night-ops",
+      "count": 12
     },
     {
-      "key": "async-night-ops",
+      "key": "build-in-public-recap",
       "count": 11
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "key": "memory-first-operations",
-      "count": 3
+      "count": 4
     },
     {
       "key": "privacy-safe-deployment",
