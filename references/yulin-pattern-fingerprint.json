@@ -1,36 +1,32 @@
 {
   "patterns": [
     {
-      "key": "async-night-ops",
-      "count": 12
-    },
-    {
-      "key": "build-in-public-recap",
-      "count": 11
-    },
-    {
       "key": "issue-driven-learning",
-      "count": 10
+      "count": 7
     },
     {
-      "key": "autonomy-and-evolution",
+      "key": "async-night-ops",
       "count": 7
     },
     {
       "key": "infra-embodiment",
-      "count": 6
+      "count": 7
     },
     {
       "key": "comments-and-timeline-intel",
-      "count": 5
+      "count": 6
     },
     {
       "key": "memory-first-operations",
-      "count": 4
+      "count": 5
+    },
+    {
+      "key": "build-in-public-recap",
+      "count": 5
     },
     {
       "key": "privacy-safe-deployment",
-      "count": 2
+      "count": 5
     }
   ]
 }
