@@ -86,6 +86,10 @@ def _keyword_hooks(text: str) -> list[str]:
         (("密码", "api", "泄露", "部署", "反向"), "Use privacy-safe deployment paths that avoid exposing customer credentials."),
         (("文章", "article"), "Support both short posts and long-form article links in one pipeline."),
         (("subagent", "agent"), "Delegate heavy experiments to sub-agents and keep main flow lightweight."),
+        # Domain / commerce hooks
+        (("domain", "域名", "afternic", "dan.com", "godaddy", "namecheap", "porkbun", "sav", "spaceship", "namesilo", ".app", ".io", ".ai", ".com"), "Register intent-clear domains at promo pricing → list on Afternic/Dan at 100–300× cost; hold 3–6 months then move on."),
+        (("sell", "卖", "sold", "flip", "listing", "price", "profit", "revenue", "赚", "收入", "变现", "出售"), "Ship one monetizable asset per week (domain, product, or service) and track which channel converts fastest."),
+        (("register", "注册", "bought", "买", "purchase", "cost", "花费", "promo", "cheap", "discount"), "Lock promo-price registrations before they expire; log acquisition cost + list price in a single tracking sheet."),
     ]
 
     for keys, sentence in mapping:

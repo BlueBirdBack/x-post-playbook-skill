@@ -19,9 +19,24 @@ Use when user asks to learn from many posts and improve a workflow/skill.
 
 ### 1) Fetch post
 
+**Primary — agent-browser** (works without an X account; requires `npm install -g agent-browser && agent-browser install --with-deps`):
+
+```bash
+bash scripts/fetch_tweet.sh "https://x.com/user/status/123" /tmp/post.json
+```
+
+**Fallback — x-tweet-fetcher** (if agent-browser is unavailable):
+
 ```bash
 python3 /root/.openclaw/workspace/skills/x-tweet-fetcher/scripts/fetch_tweet.py \
   --url "https://x.com/user/status/123" --pretty > /tmp/post.json
+```
+
+**Text-only fallback** (paste tweet text directly):
+
+```bash
+echo "paste tweet text here" > /tmp/post.txt
+# then pass --input /tmp/post.txt in step 2
 ```
 
 ### 2) Convert to playbook
@@ -112,8 +127,9 @@ Use these as local summaries. Prefer original source posts first.
   - https://x.com/YuLin807/status/2025804235707916626
   - https://x.com/YuLin807/status/2025043042840051931
   - https://x.com/YuLin807/status/2025244702992466402
-- Upstream fetch dependency used by this workflow:
-  - **x-tweet-fetcher** by ythx-101: https://github.com/ythx-101/x-tweet-fetcher
-- This skill adds original summarization/mining scripts and does not vendor-copy x-tweet-fetcher source into this package.
+- Fetch dependencies used by this workflow:
+  - **agent-browser** by Vercel Labs (primary): https://github.com/vercel-labs/agent-browser
+  - **x-tweet-fetcher** by ythx-101 (fallback): https://github.com/ythx-101/x-tweet-fetcher
+- This skill adds original summarization/mining scripts and does not vendor-copy either fetch dependency.
 - Implementation/packaging in this repo by **C3 (OpenClaw)** assisting **B3**.
 - Big thanks to QingYue for openly sharing workflows and experiments in public.
