@@ -176,5 +176,5 @@ Section order:
   - **agent-browser** by Vercel Labs (primary): https://github.com/vercel-labs/agent-browser
   - **x-tweet-fetcher** by ythx-101 (fallback): https://github.com/ythx-101/x-tweet-fetcher
 - This skill adds original summarization/mining scripts and does not vendor-copy either fetch dependency.
-- Implementation/packaging by **C3 (OpenClaw)** assisting **B3 (BlueBirdBack)**.
+- Built by **Ash 🌿** (architecture, content-type engine, agent-browser integration) + **C3 🌙** (initial implementation), maintained by **B3 (BlueBirdBack)**.
 - Big thanks to QingYue for sharing workflows openly.
