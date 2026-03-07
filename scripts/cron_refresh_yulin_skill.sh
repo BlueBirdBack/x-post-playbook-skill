@@ -24,6 +24,10 @@ mkdir -p "$TMP_DIR"
 log "Pulling latest public repo"
 git -C "$PUB_REPO" pull --rebase --autostash >/dev/null
 
+log "Syncing scripts + SKILL.md from public repo → local skill src (preserves manual commits)"
+rsync -a "$PUB_REPO/scripts/" "$SKILL_SRC/scripts/"
+cp "$PUB_REPO/SKILL.md" "$SKILL_SRC/SKILL.md"
+
 log "Fetching recent posts (last 7 days)"
 python3 "$WS/skills/x-latest-posts/scripts/fetch_x_recent_posts.py" \
   --handle YuLin807 --hours 168 --max-posts 30 --json > "$RECENT_JSON"
@@ -63,9 +67,7 @@ log "Repackaging skill"
 python3 /usr/lib/node_modules/openclaw/skills/skill-creator/scripts/package_skill.py \
   "$SKILL_SRC" "$WS/skills/dist" >/dev/null
 
-log "Syncing skill files into public repo"
-cp "$SKILL_SRC/SKILL.md" "$PUB_REPO/SKILL.md"
-rsync -a --delete "$SKILL_SRC/scripts/" "$PUB_REPO/scripts/"
+log "Syncing references into public repo (scripts + SKILL.md untouched — managed via git)"
 rsync -a --delete "$SKILL_SRC/references/" "$PUB_REPO/references/"
 cp "$WS/skills/dist/x-post-playbook.skill" "$PUB_REPO/x-post-playbook.skill"
 
@@ -76,7 +78,7 @@ if git diff --quiet && git diff --cached --quiet; then
   exit 0
 fi
 
-git add SKILL.md scripts references x-post-playbook.skill
+git add references x-post-playbook.skill
 
 if git diff --cached --quiet; then
   log "Nothing staged after add."
